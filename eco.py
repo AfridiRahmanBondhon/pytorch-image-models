@@ -57,7 +57,7 @@ def write_yaml_with_header(file, data, filename):
     file.write("on:\n")
     file.write("  push:\n")
     file.write("    branches:\n")
-    file.write("      - main\n\n")
+    file.write("      - master\n\n")
     
     if 'name' in data:
         del data['name']
